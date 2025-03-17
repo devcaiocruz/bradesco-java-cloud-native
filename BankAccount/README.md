@@ -1,37 +1,30 @@
-# DIO - Basic Java Track
-www.dio.me
+## Sintaxe - Desafio
 
-#### Authors
-- Gleyson Sampaio](https://github.com/glysns)
+Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
 
-## Syntax - Challenge
+1. Crie o projeto `BankAccount` que receberá dados via terminal contendo as características de uma conta bancária de acordo com os atributos abaixo:
+2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
 
-Let's exercise all the content presented in the Syntax module by coding the following scenario.
+###### Revisar regras de declaração de variáveis
 
-1. Create the `BankAccount` project which will receive data via a terminal containing the characteristics of a bank account according to the attributes below:
-2. Inside the project, create the class `ContaTerminal.java` to do all the coding for our program.
-
-###### Review variable declaration rules
-
-| Attribute | Type | Example   
+| Atributo | Tipo | Exemplo   
 | --------- | ---------| ------- 
-| Number | Integer | 1021 
-| Agency | Text | 067-8
-| Client Name | Text | MARIO ANDRADE
-| Balance | Decimal |237.48
+| Número | Inteiro | 1021 
+| Agência | Texto | 067-8
+| Nome do Cliente | Texto | MARIO ANDRADE
+| Saldo | Decimal | 237.48
 
+###### Revisar terminal, argumentos main e a classe Scanner
+2. Permitir que os dados sejam inseridos via terminal e o usuário receberá uma mensagem solicitando as informações, exemplo:
 
-###### Review terminal, main args and the Scanner class
-2. Allow data to be entered via the terminal and the user will receive a message asking for the information, example:
+* Programa: “Por favor, digite o número da agência!”
+* Usuário: 1021 *(então ENTER para o próximo campo)*
 
-* Program: “Please enter the branch number !”
-* User: 1021 *(then ENTER for the next field)*
+###### Revisar concatenação e a classe String com o método concat
 
-###### Review concatenation and String class with concat method
+3. Uma vez que todas as informações tenham sido inseridas, o sistema deve exibir a seguinte mensagem:
 
-3. Once all the information has been entered, the system should display the following message:
+*"Olá [Nome do Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agência], conta [Número] e seu saldo [Saldo] já está disponível para saque.”*
 
-*"Hello [Customer Name], thank you for creating an account at our bank, your branch is [Branch], account [Number] and your balance [Balance] is now available for withdrawal.”
-
-The fields in [ ] must be altered by the information entered by the users.
+Os campos em [ ] devem ser alterados pelas informações inseridas pelos usuários.
 
